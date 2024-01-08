@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <section id="header" class="w-100 position-relative">
+        <div class="layer position-absolute w-100 h-100"></div>
+    </section>
+
+    <nav id="navbar"
+        class="col-md-12 container d-flex justify-content-between align-items-center py-3 rounded-4 mb-4 sticky-top">
+        <div class="logo">Game Reviews</div>
+        <div class="genre d-flex align-items-center">
+            <button id="mmorpgBtn">Mmorpg</button>
+            <button id="shootersBtn">Shooters</button>
+            <button id="sailingBtn">Sailing</button>
+            <button id="permadeathBtn">Permadeath</button>
+            <button id="superheroBtn">Superhero</button>
+            <button id="pixelBtn">Pixel</button>
+        </div>
+    </nav>
+
+    <section id="home" class="text-white">
+        <div id="myData" class="container row mx-auto g-4 px-0">
+
+        </div>
+    </section>
+
+    <section id="details" class=" position-absolute start-0 top-0 w-100 h-100 d-none text-white py-5">
+        <div class="container">
+            <div class="header d-flex justify-content-between mb-2">
+                <h2 class="w-100">Game Details</h2>
+                <button class="px-2 py-1" id="closeBtn">
+                    Back
+                </button>
+            </div>
+
+            <div class="row text-white" id="detailsData">
+                
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/details.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

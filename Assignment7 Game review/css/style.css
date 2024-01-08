@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+.container {
+    width: 85%;
+}
+
+body {
+    background-color:#0C0C0C ;
+    height: 100%;
+}
+
+#header {
+    background-image: url("../images/Gaming-Wallpaper-4k-HD-Wallpapers-scaled.jpg");
+    background-size: cover; 
+    height: 250px;
+}
+
+#header .layer {
+    background-color: rgba(0,0,0,0.7);
+}
+
+nav {
+    color: white;
+    background-color: crimson;
+}
+
+nav button {
+    background: none;
+    border: none;
+    margin: 0 8px;
+    color: white;
+    transition: all 0.3s;
+}
+
+nav button:hover {
+    color: black;
+}
+
+nav button:focus {
+    color: black;
+}
+
+#myData .card {
+    background-color: #0C0C0C;
+    border: none;
+    color: white;
+}
+
+#myData .card .inner{
+    border: 1px solid black;
+    height: 100%;
+    transition: all 0.5s;
+    filter: grayscale(0.6);
+}
+
+#myData .card .inner:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+
+#myData .card span {
+    color: white;
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 3px
+}
+
+#myData .card #free {
+    background-color: crimson;
+}
+
+#details a {
+    text-decoration: none;
+    color:white;
+}
+
+#details button {
+    background-color: crimson;
+    color: white;
+    border-radius: 8px;
+}
